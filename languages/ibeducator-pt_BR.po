@@ -1,0 +1,1773 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Educator WordPress Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-02 02:40-0200\n"
+"PO-Revision-Date: 2016-02-02 05:26-0200\n"
+"Language-Team: educatorteam <contact@educatorplugin.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;_n:1,2;_x:1,2c;_ex:1,2c;"
+"_n_noop:1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Language: pt_BR\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/meta-boxes/course.php:11
+msgid "Registration"
+msgstr "Inscrição"
+
+#: ../admin/meta-boxes/course.php:13
+msgid "Open"
+msgstr "Aberto"
+
+#: ../admin/meta-boxes/course.php:14
+msgid "Closed"
+msgstr "Fechado"
+
+#: ../admin/meta-boxes/course.php:26 ../admin/meta-boxes/membership.php:20
+#: ../includes/Edr/MembershipsRun.php:158
+#: ../includes/Edr/StudentAccount.php:410 ../templates/shortcode-payment.php:65
+msgid "Price"
+msgstr "Preço"
+
+#: ../admin/meta-boxes/course.php:36 ../admin/meta-boxes/membership.php:30
+#: ../includes/Edr/Admin/Settings/Taxes.php:310
+msgid "Tax Class"
+msgstr "Taxa de turma"
+
+#: ../admin/meta-boxes/course.php:47
+msgid "Difficulty"
+msgstr "Dificuldade"
+
+#: ../admin/meta-boxes/course.php:48 ../admin/meta-boxes/course.php:52
+#: ../includes/ib-educator.php:831 ../includes/Edr/Admin/Actions.php:333
+#: ../includes/Edr/Admin/MembersTable.php:154
+#: ../includes/Edr/Admin/Settings/Base.php:112
+#: ../templates/shortcode-user-membership.php:95
+msgid "None"
+msgstr "Nenhum"
+
+#: ../admin/meta-boxes/course.php:68
+msgid "Prerequisite"
+msgstr "Pré-requisito"
+
+#: ../admin/meta-boxes/lesson.php:17
+msgid "Access"
+msgstr "Acesso"
+
+#: ../admin/meta-boxes/lesson.php:23
+msgid "Registered users"
+msgstr "Usuários registrados"
+
+#: ../admin/meta-boxes/lesson.php:24
+msgid "Logged in users"
+msgstr "Usuários logados"
+
+#: ../admin/meta-boxes/lesson.php:25
+msgid "Everyone"
+msgstr "Todos"
+
+#: ../admin/meta-boxes/lesson.php:39 ../admin/templates/edit-entry.php:211
+#: ../admin/templates/edit-payment.php:225
+#: ../admin/templates/entry-progress.php:56 ../includes/functions.php:794
+#: ../includes/Edr/PostTypes.php:40 ../includes/Edr/Admin/EntriesTable.php:125
+#: ../includes/Edr/Admin/EntriesTable.php:166
+#: ../includes/Edr/Admin/PostTypes.php:29
+#: ../templates/shortcode-student-courses.php:35
+#: ../templates/shortcode-student-courses.php:83
+#: ../templates/shortcode-student-courses.php:115
+#: ../templates/shortcode-student-courses.php:166
+msgid "Course"
+msgstr "Curso"
+
+#: ../admin/meta-boxes/lesson.php:43
+msgid "Select Course"
+msgstr "Selecione o curso"
+
+#: ../admin/meta-boxes/membership.php:50
+msgid "Duration"
+msgstr "Duração"
+
+#: ../admin/meta-boxes/membership.php:55
+msgid "Select Categories"
+msgstr "Selecione as categorias"
+
+#: ../admin/meta-boxes/membership.php:68
+msgid "Categories"
+msgstr "Categorias"
+
+#: ../admin/meta-boxes/quiz.php:11 ../includes/Edr/Admin.php:65
+msgid "Settings"
+msgstr "Configurações"
+
+#: ../admin/meta-boxes/quiz.php:15
+msgid "Number of attempts"
+msgstr "Número de tentativas"
+
+#: ../admin/meta-boxes/quiz.php:22
+msgid "Questions"
+msgstr "Questões"
+
+#: ../admin/meta-boxes/quiz.php:30
+#, php-format
+msgid "Add %s question."
+msgstr "Add %s questões"
+
+#: ../admin/meta-boxes/quiz.php:32
+msgid "Multiple Choice"
+msgstr "Multipla escolha"
+
+#: ../admin/meta-boxes/quiz.php:33
+msgid "Written Answer"
+msgstr "Resposta escrita"
+
+#: ../admin/meta-boxes/quiz.php:37
+msgid "Go"
+msgstr "Ir"
+
+#: ../admin/meta-boxes/quiz.php:61 ../admin/meta-boxes/quiz.php:99
+#: ../admin/templates/entry-progress.php:91
+msgid "Question"
+msgstr "Questão"
+
+#: ../admin/meta-boxes/quiz.php:65 ../admin/meta-boxes/quiz.php:103
+msgid "Content"
+msgstr "Conteúdo"
+
+#: ../admin/meta-boxes/quiz.php:69
+msgid "Answers"
+msgstr "Respostas"
+
+#: ../admin/meta-boxes/quiz.php:70
+msgid "No answers yet."
+msgstr "Ainda não há respostas."
+
+#: ../admin/meta-boxes/quiz.php:75 ../admin/templates/entry-progress.php:90
+msgid "Correct?"
+msgstr "Correto?"
+
+#: ../admin/meta-boxes/quiz.php:76
+msgid "Answer"
+msgstr "Resposta"
+
+#: ../admin/meta-boxes/quiz.php:84 ../admin/meta-boxes/quiz.php:107
+msgid "Save Question"
+msgstr "Salvar questão"
+
+#: ../admin/meta-boxes/quiz.php:85
+msgid "Add Answer"
+msgstr "Add resposta"
+
+#: ../admin/meta-boxes/quiz.php:86 ../admin/meta-boxes/quiz.php:108
+#: ../includes/Edr/Admin/EntriesTable.php:218
+#: ../includes/Edr/Admin/EntriesTable.php:279
+#: ../includes/Edr/Admin/PaymentsTable.php:141
+#: ../includes/Edr/Admin/PaymentsTable.php:219
+#: ../includes/Edr/Admin/Settings/Taxes.php:301
+#: ../includes/Edr/Admin/Settings/Taxes.php:349
+#: ../includes/Edr/Admin/Settings/Taxes.php:372
+msgid "Delete"
+msgstr "Apagar"
+
+#: ../admin/templates/edit-entry.php:17 ../admin/templates/edit-member.php:5
+#: ../admin/templates/edit-payment.php:5
+#: ../admin/templates/entry-progress.php:18 ../admin/templates/members.php:5
+#: ../admin/templates/payments.php:5
+msgid "Access denied"
+msgstr "Acesso negado"
+
+#: ../admin/templates/edit-entry.php:49
+msgid "Edit Entry"
+msgstr "Editar assento"
+
+#: ../admin/templates/edit-entry.php:51
+msgid "Add Entry"
+msgstr "Add assento"
+
+#: ../admin/templates/edit-entry.php:57
+msgid "Entry saved."
+msgstr "Assento salvo"
+
+#: ../admin/templates/edit-entry.php:84
+#: ../includes/Edr/Admin/EntriesTable.php:25
+msgid "Entry"
+msgstr "Assento"
+
+#: ../admin/templates/edit-entry.php:89 ../admin/templates/edit-member.php:87
+#: ../admin/templates/edit-payment.php:104
+#: ../includes/Edr/Admin/EntriesTable.php:99
+#: ../includes/Edr/Admin/EntriesTable.php:168
+#: ../includes/Edr/Admin/MembersTable.php:76
+#: ../includes/Edr/Admin/PaymentsTable.php:55
+#: ../includes/Edr/Admin/PaymentsTable.php:88
+#: ../templates/shortcode-user-membership.php:58
+msgid "Status"
+msgstr "Status"
+
+#: ../admin/templates/edit-entry.php:105
+#: ../includes/Edr/Admin/EntriesTable.php:170
+#: ../includes/Edr/Admin/PaymentsTable.php:89
+#: ../templates/shortcode-payment.php:46
+#: ../templates/shortcode-user-payments.php:33
+msgid "Date"
+msgstr "Data"
+
+#: ../admin/templates/edit-entry.php:109
+msgid "Date format: yyyy-mm-dd hh:mm:ss"
+msgstr "Formato de data: yyyy-mm-dd hh:mm:ss"
+
+#: ../admin/templates/edit-entry.php:128
+msgid "Entry Data"
+msgstr "Dados do assento"
+
+#: ../admin/templates/edit-entry.php:138
+#: ../admin/templates/edit-payment.php:251 ../includes/functions.php:795
+#: ../includes/functions.php:832
+msgid "Membership"
+msgstr "Planos"
+
+#: ../admin/templates/edit-entry.php:142
+#: ../admin/templates/edit-payment.php:255
+msgid "Select Membership"
+msgstr "Selecione o plano"
+
+#: ../admin/templates/edit-entry.php:158
+msgid "Payment ID"
+msgstr "ID pagamento"
+
+#: ../admin/templates/edit-entry.php:164
+#, php-format
+msgid "Please find payment ID on %s page."
+msgstr "Por favor, encontre o ID do pagamento na página %s."
+
+#: ../admin/templates/edit-entry.php:166 ../admin/templates/edit-member.php:180
+#: ../includes/Edr/Admin.php:73 ../includes/Edr/Admin/PaymentsTable.php:21
+msgid "Payments"
+msgstr "Pagamentos"
+
+#: ../admin/templates/edit-entry.php:175
+msgid "Origin"
+msgstr "Origem"
+
+#: ../admin/templates/edit-entry.php:192
+#: ../admin/templates/edit-payment.php:150
+#: ../admin/templates/entry-progress.php:46 ../includes/Edr/Install.php:324
+#: ../includes/Edr/Admin/EntriesTable.php:112
+msgid "Student"
+msgstr "Estudante"
+
+#: ../admin/templates/edit-entry.php:230
+#: ../admin/templates/entry-progress.php:157
+#: ../includes/Edr/Admin/EntriesTable.php:169
+#: ../templates/shortcode-student-courses.php:116
+msgid "Grade"
+msgstr "Situação"
+
+#: ../admin/templates/edit-entry.php:234
+msgid "A number between 0 and 100."
+msgstr "Um número entre 0 e 100."
+
+#: ../admin/templates/edit-entry.php:242
+msgid "Prerequisites"
+msgstr "Pré-requisitos"
+
+#: ../admin/templates/edit-entry.php:245
+msgid "Ignore prerequisites"
+msgstr "Ignorar pré-requisitos"
+
+#: ../admin/templates/edit-member.php:37
+msgid "Edit Member"
+msgstr "Editar membro"
+
+#: ../admin/templates/edit-member.php:39
+msgid "Add Member"
+msgstr "Add membro"
+
+#: ../admin/templates/edit-member.php:52
+msgid "The membership for this student already exists."
+msgstr "O plano para este estudante já existe."
+
+#: ../admin/templates/edit-member.php:63
+msgid "Member updated."
+msgstr "Atualizar membro"
+
+#: ../admin/templates/edit-member.php:80 ../admin/templates/edit-member.php:127
+#: ../includes/Edr/Admin/MembersTable.php:25
+msgid "Member"
+msgstr "Membro"
+
+#: ../admin/templates/edit-member.php:116
+msgid "Data"
+msgstr "Dados"
+
+#: ../admin/templates/edit-member.php:148 ../includes/Edr/PostTypes.php:101
+#: ../includes/Edr/Admin/MembersTable.php:75
+#: ../templates/shortcode-user-membership.php:41
+msgid "Membership Level"
+msgstr "Níveis de planos"
+
+#: ../admin/templates/edit-member.php:167
+#: ../includes/Edr/Admin/MembersTable.php:77
+#: ../templates/shortcode-user-membership.php:91
+msgid "Expiration Date"
+msgstr "Data de expiração"
+
+#: ../admin/templates/edit-member.php:171
+msgid "Enter the date like yyyy-mm-dd hh:mm:ss"
+msgstr "Insira a data no formato: yyyy-mm-dd hh:mm:ss"
+
+#: ../admin/templates/edit-member.php:199
+#: ../templates/shortcode-user-payments.php:74
+msgid "No payments found."
+msgstr "Nenhum pagamento encontrado."
+
+#: ../admin/templates/edit-payment.php:39
+msgid "Edit Payment"
+msgstr "Editar pagamento"
+
+#: ../admin/templates/edit-payment.php:41
+msgid "Add Payment"
+msgstr "Add pagamento"
+
+#: ../admin/templates/edit-payment.php:54
+msgid "Please select a student"
+msgstr "Por favor, escolha um estudante"
+
+#: ../admin/templates/edit-payment.php:58
+msgid "Please select a course"
+msgstr "Por favor, escolha um curso"
+
+#: ../admin/templates/edit-payment.php:69
+msgid "Payment saved."
+msgstr "Pagamento salvo."
+
+#: ../admin/templates/edit-payment.php:84 ../includes/functions.php:831
+#: ../includes/Edr/Admin/PaymentsTable.php:20
+#: ../includes/Edr/Admin/Settings/General.php:52
+#: ../templates/shortcode-payment.php:43
+msgid "Payment"
+msgstr "Pagamento"
+
+#: ../admin/templates/edit-payment.php:89
+#: ../includes/Edr/Admin/PaymentsTable.php:43
+#: ../includes/Edr/Admin/PaymentsTable.php:84
+msgid "Payment Type"
+msgstr "Tipo de pagamento"
+
+#: ../admin/templates/edit-payment.php:117
+#: ../templates/shortcode-student-courses.php:83
+#: ../templates/shortcode-student-courses.php:114
+#: ../templates/shortcode-student-courses.php:166
+msgid "Entry ID"
+msgstr "Assento ID"
+
+#: ../admin/templates/edit-payment.php:127
+msgid "This payment is not connected to any entry."
+msgstr "Este pagamento não está vinculado a nenhum assento."
+
+#: ../admin/templates/edit-payment.php:132
+msgid "Create an entry for this student"
+msgstr "Criar um assento para este estudante"
+
+#: ../admin/templates/edit-payment.php:169
+#: ../templates/shortcode-payment.php:237
+msgid "Payment Method"
+msgstr "Métodos de pagamento"
+
+#: ../admin/templates/edit-payment.php:173
+#: ../includes/Edr/Admin/Settings/Base.php:118
+msgid "Select"
+msgstr "Selecione"
+
+#: ../admin/templates/edit-payment.php:190
+msgid "Transaction ID"
+msgstr "Trnsação ID"
+
+#: ../admin/templates/edit-payment.php:200
+msgid "IP"
+msgstr "IP"
+
+#: ../admin/templates/edit-payment.php:221
+msgid "Items"
+msgstr "Itens"
+
+#: ../admin/templates/edit-payment.php:271
+msgid "Update membership for this student"
+msgstr "Atualiza plano para este usuário"
+
+#: ../admin/templates/edit-payment.php:273
+msgid "Setup membership for this student"
+msgstr "Estabelecer plano para este estudante"
+
+#: ../admin/templates/edit-payment.php:283
+#: ../admin/templates/edit-payment.php:424
+#: ../admin/templates/edit-payment.php:438
+msgid "Tax"
+msgstr "Taxa"
+
+#: ../admin/templates/edit-payment.php:291
+msgid "Total Amount"
+msgstr "Quantia total"
+
+#: ../admin/templates/edit-payment.php:294
+msgid ""
+"A number with a maximum of 2 figures after the decimal point (for example, "
+"9.99)."
+msgstr "Um número com, no máximo, duas casas decimais (por exemplo: 9.99)"
+
+#: ../admin/templates/edit-payment.php:300
+#: ../includes/Edr/Admin/Settings/General.php:165
+#: ../includes/Edr/Admin/Settings/General.php:173
+msgid "Currency"
+msgstr "Moeda"
+
+#: ../admin/templates/edit-payment.php:303
+msgid "Select Currency"
+msgstr "Selecionar moeda"
+
+#: ../admin/templates/edit-payment.php:322
+msgid "Billing"
+msgstr "Faturamento"
+
+#: ../admin/templates/edit-payment.php:326
+#: ../includes/Edr/StudentAccount.php:133
+msgid "First Name"
+msgstr "Primeiro nome"
+
+#: ../admin/templates/edit-payment.php:334
+#: ../includes/Edr/StudentAccount.php:144
+msgid "Last Name"
+msgstr "Último nome"
+
+#: ../admin/templates/edit-payment.php:342
+#: ../includes/Edr/StudentAccount.php:155
+msgid "Address"
+msgstr "Endereço"
+
+#: ../admin/templates/edit-payment.php:350
+#: ../includes/Edr/StudentAccount.php:166
+msgid "Address Line 2"
+msgstr "Endereço linha 2"
+
+#: ../admin/templates/edit-payment.php:358
+#: ../includes/Edr/StudentAccount.php:175
+msgid "City"
+msgstr "Cidade"
+
+#: ../admin/templates/edit-payment.php:366
+#: ../includes/Edr/StudentAccount.php:211
+msgid "Postcode / Zip"
+msgstr "Código postal / Zip"
+
+#: ../admin/templates/edit-payment.php:374
+#: ../includes/Edr/StudentAccount.php:187
+msgid "State / Province"
+msgstr "País / Província"
+
+#: ../admin/templates/edit-payment.php:396
+#: ../includes/Edr/StudentAccount.php:222
+#: ../includes/Edr/Admin/Settings/Taxes.php:382
+msgid "Country"
+msgstr "Estado"
+
+#: ../admin/templates/edit-payment.php:416
+msgid "Payment Lines"
+msgstr "Linhas de pagamentos"
+
+#: ../admin/templates/edit-payment.php:421
+msgid "Type"
+msgstr "Tipo"
+
+#: ../admin/templates/edit-payment.php:422
+msgid "Reference ID"
+msgstr "Referência ID"
+
+#: ../admin/templates/edit-payment.php:423
+#: ../includes/Edr/Admin/PaymentsTable.php:86
+#: ../templates/shortcode-user-payments.php:35
+msgid "Amount"
+msgstr "Quantidade"
+
+#: ../admin/templates/edit-payment.php:425
+#: ../includes/Edr/Admin/MembersTable.php:74
+#: ../includes/Edr/Admin/Settings/Taxes.php:384
+msgid "Name"
+msgstr "Nome"
+
+#: ../admin/templates/edit-payment.php:439
+#: ../includes/Edr/StudentAccount.php:410
+#: ../includes/Edr/Admin/PaymentsTable.php:83
+#: ../templates/shortcode-payment.php:64
+msgid "Item"
+msgstr "Item"
+
+#: ../admin/templates/entries.php:10 ../includes/Edr/Admin.php:88
+#: ../includes/Edr/Admin.php:96
+msgid "Educator Entries"
+msgstr "Assentos Educator"
+
+#: ../admin/templates/entries.php:11 ../admin/templates/members.php:17
+#: ../admin/templates/payments.php:17
+#: ../includes/Edr/Admin/Settings/Taxes.php:317
+#: ../includes/Edr/Admin/Settings/Taxes.php:400
+msgid "Add New"
+msgstr "Add novo"
+
+#: ../admin/templates/entries.php:24 ../admin/templates/payments.php:30
+#: ../includes/Edr/Admin/Quiz.php:41
+msgid "Are you sure you want to delete this item?"
+msgstr "Tem certeza que deseja apagar este item?"
+
+#: ../admin/templates/entry-progress.php:41
+#: ../includes/Edr/Admin/EntriesTable.php:215
+msgid "Progress"
+msgstr "Progresso"
+
+#: ../admin/templates/entry-progress.php:44
+msgid "Entry Details"
+msgstr "Detalhes do assento"
+
+#: ../admin/templates/entry-progress.php:69
+msgid "Quizzes"
+msgstr "Perguntas"
+
+#: ../admin/templates/entry-progress.php:124
+msgid "Correct"
+msgstr "Correto"
+
+#: ../admin/templates/entry-progress.php:126
+msgid "Wrong"
+msgstr "Errado"
+
+#: ../admin/templates/entry-progress.php:129
+#: ../admin/templates/entry-progress.php:135
+msgid "Not answered yet."
+msgstr "Ninguém respondeu"
+
+#: ../admin/templates/entry-progress.php:161
+msgid "Please enter a number between 0 and 100."
+msgstr "Por favor, entre com um número entre 0 e 100."
+
+#: ../admin/templates/entry-progress.php:163
+msgid "The student will receive a notification email."
+msgstr "O estudante receberá uma notificação por e-mail"
+
+#: ../admin/templates/entry-progress.php:169
+msgid "Save Grade"
+msgstr "Salvar situação"
+
+#: ../admin/templates/entry-progress.php:178
+msgid "Summary"
+msgstr "Sumário"
+
+#: ../admin/templates/entry-progress.php:180
+msgid "Average Grade"
+msgstr "Situação média"
+
+#: ../admin/templates/entry-progress.php:186
+msgid "Final Grade"
+msgstr "Situação final"
+
+#: ../admin/templates/entry-progress.php:190
+#: ../includes/Edr/Admin/EntriesTable.php:214
+#: ../includes/Edr/Admin/MembersTable.php:93
+#: ../includes/Edr/Admin/PaymentsTable.php:140
+#: ../includes/Edr/Admin/Settings/Taxes.php:299
+#: ../includes/Edr/Admin/Settings/Taxes.php:348
+msgid "Edit"
+msgstr "Editar"
+
+#: ../admin/templates/members.php:16 ../includes/Edr/Admin.php:110
+msgid "Educator Members"
+msgstr "Membros Educator"
+
+#: ../admin/templates/payments.php:16 ../includes/Edr/Admin.php:72
+msgid "Educator Payments"
+msgstr "Pagamentos Educator"
+
+#: ../admin/templates/settings-email.php:4
+#: ../admin/templates/settings-general.php:4
+#: ../admin/templates/settings-learning.php:4
+#: ../admin/templates/settings-memberships.php:4
+#: ../admin/templates/settings-payment.php:25
+#: ../admin/templates/settings-taxes.php:4 ../includes/Edr/Admin.php:64
+msgid "Educator Settings"
+msgstr "Configurações Educator"
+
+#: ../admin/templates/settings-payment.php:29
+msgid "Payment options updated."
+msgstr "Opção de pagamento atualizada."
+
+#: ../admin/templates/settings-payment.php:33
+msgid "Update failed or options values have not changed."
+msgstr "Atualização falhou ou o valor da opção não pode trocar."
+
+#: ../admin/templates/settings-payment.php:46
+msgid "Payment Gateways:"
+msgstr "Gatways de pagaemento:"
+
+#: ../includes/functions.php:119
+msgid "Australian Dollars"
+msgstr ""
+
+#: ../includes/functions.php:120
+msgid "Azerbaijani Manat"
+msgstr ""
+
+#: ../includes/functions.php:121
+msgid "Brazilian Real"
+msgstr "Brasil Real"
+
+#: ../includes/functions.php:122
+msgid "Canadian Dollars"
+msgstr ""
+
+#: ../includes/functions.php:123
+msgid "Chinese Yuan"
+msgstr ""
+
+#: ../includes/functions.php:124
+msgid "Czech Koruna"
+msgstr ""
+
+#: ../includes/functions.php:125
+msgid "Danish Krone"
+msgstr ""
+
+#: ../includes/functions.php:126
+msgid "Euros"
+msgstr ""
+
+#: ../includes/functions.php:127
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: ../includes/functions.php:128
+msgid "Hungarian Forint"
+msgstr ""
+
+#: ../includes/functions.php:129
+msgid "Indian Rupee"
+msgstr ""
+
+#: ../includes/functions.php:130
+msgid "Iranian Rial"
+msgstr ""
+
+#: ../includes/functions.php:131
+msgid "Israeli Shekel"
+msgstr ""
+
+#: ../includes/functions.php:132
+msgid "Japanese Yen"
+msgstr ""
+
+#: ../includes/functions.php:133
+msgid "Malaysian Ringgits"
+msgstr ""
+
+#: ../includes/functions.php:134
+msgid "Mexican Peso"
+msgstr ""
+
+#: ../includes/functions.php:135
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: ../includes/functions.php:136
+msgid "Norwegian Krone"
+msgstr ""
+
+#: ../includes/functions.php:137
+msgid "Philippine Pesos"
+msgstr ""
+
+#: ../includes/functions.php:138
+msgid "Polish Zloty"
+msgstr ""
+
+#: ../includes/functions.php:139
+msgid "Pounds Sterling"
+msgstr ""
+
+#: ../includes/functions.php:140
+msgid "Russian Rubles"
+msgstr ""
+
+#: ../includes/functions.php:141
+msgid "Singapore Dollar"
+msgstr ""
+
+#: ../includes/functions.php:142
+msgid "Swedish Krona"
+msgstr ""
+
+#: ../includes/functions.php:143
+msgid "South Korean Won"
+msgstr ""
+
+#: ../includes/functions.php:144
+msgid "Swiss Franc"
+msgstr ""
+
+#: ../includes/functions.php:145
+msgid "Taiwan New Dollars"
+msgstr ""
+
+#: ../includes/functions.php:146
+msgid "Thai Baht"
+msgstr ""
+
+#: ../includes/functions.php:147
+msgid "Turkish Lira"
+msgstr ""
+
+#: ../includes/functions.php:148
+msgid "US Dollars"
+msgstr ""
+
+#: ../includes/functions.php:149
+msgid "Ukrainian Hryvnia"
+msgstr ""
+
+#: ../includes/functions.php:329
+msgid "Your registration is pending."
+msgstr "Sua inscrição está pendente."
+
+#: ../includes/functions.php:333
+msgid "The payment for this course is pending."
+msgstr "O pagamento para este curso está pendente."
+
+#: ../includes/functions.php:337 ../templates/content-single-course.php:27
+msgid "You are registered for this course."
+msgstr "Você está registrado para este curso."
+
+#: ../includes/functions.php:418
+msgid "Beginner"
+msgstr "Iniciante"
+
+#: ../includes/functions.php:419
+msgid "Intermediate"
+msgstr "Intermediário"
+
+#: ../includes/functions.php:420
+msgid "Advanced"
+msgstr "Avançado"
+
+#: ../includes/functions.php:558
+msgid "Join"
+msgstr "Entrar"
+
+#: ../includes/functions.php:562 ../includes/Edr/Gateway/Free.php:9
+msgid "Free"
+msgstr "Grátis"
+
+#: ../includes/functions.php:565
+msgid "Register"
+msgstr "Inscrever"
+
+#: ../includes/functions.php:738 ../includes/Edr/Memberships.php:661
+msgid "Purchase"
+msgstr "Comprar"
+
+#: ../includes/functions.php:780 ../includes/functions.php:816
+msgid "Pending"
+msgstr "Pendente"
+
+#: ../includes/functions.php:781 ../includes/functions.php:818
+#: ../templates/shortcode-student-courses.php:119
+msgid "Complete"
+msgstr "Completo"
+
+#: ../includes/functions.php:782
+msgid "Failed"
+msgstr "Falhou"
+
+#: ../includes/functions.php:783 ../includes/functions.php:819
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#: ../includes/functions.php:817
+msgid "In progress"
+msgstr "Em progresso"
+
+#: ../includes/functions.php:820 ../templates/shortcode-student-courses.php:164
+msgid "Paused"
+msgstr "Pausado"
+
+#: ../includes/functions.php:856
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since Educator version %2$s! Use %3$s "
+"instead."
+msgstr ""
+
+#: ../includes/functions.php:858
+#, php-format
+msgid ""
+"%1$s is <strong>deprecated</strong> since Educator version %2$s with no "
+"alternative available."
+msgstr ""
+
+#: ../includes/template-functions.php:92
+msgid ", "
+msgstr ""
+
+#: ../includes/template-functions.php:144 ../includes/Edr/PostTypes.php:71
+#: ../templates/course/syllabus.php:1
+msgid "Lessons"
+msgstr "Lições"
+
+#: ../includes/Edr/Admin.php:54 ../includes/Edr/Admin.php:55
+msgid "Educator"
+msgstr ""
+
+#: ../includes/Edr/Admin.php:89 ../includes/Edr/Admin.php:97
+#: ../includes/Edr/Admin/EntriesTable.php:26
+msgid "Entries"
+msgstr "Assentos"
+
+#: ../includes/Edr/Admin.php:111 ../includes/Edr/Admin/MembersTable.php:26
+msgid "Members"
+msgstr "Membros"
+
+#: ../includes/Edr/Admin.php:205
+msgid "Payments per page"
+msgstr "Pagamentos por página"
+
+#: ../includes/Edr/Admin.php:224
+msgid "Entries per page"
+msgstr "Assentos por página"
+
+#: ../includes/Edr/Admin.php:243
+msgid "Members per page"
+msgstr "Membros por página"
+
+#: ../includes/Edr/FrontActions.php:236 ../includes/Edr/FrontActions.php:374
+#: ../includes/Edr/Admin/Actions.php:113
+#, php-format
+msgid "You have to complete the prerequisites for this course: %s"
+msgstr "Você tem que completar o pré-requisito deste curso: %s"
+
+#: ../includes/Edr/FrontActions.php:247
+msgid "Please select a payment method."
+msgstr "Por favor, selecione um método de pagamento"
+
+#: ../includes/Edr/Install.php:319
+msgid "Lecturer"
+msgstr "Professor"
+
+#: ../includes/Edr/Install.php:434
+#, php-format
+msgid "Registration for %s is complete"
+msgstr "Inscrição para %s completo"
+
+#: ../includes/Edr/Install.php:450
+msgid "You've got a grade"
+msgstr "Você tem uma situação"
+
+#: ../includes/Edr/Install.php:464
+msgid "You've been registered for a membership"
+msgstr "Você deve se adquirir um plano"
+
+#: ../includes/Edr/Install.php:482
+msgid "Your membership expires"
+msgstr "Seu plano expirou"
+
+#: ../includes/Edr/Memberships.php:47
+msgid "Onetime Fee"
+msgstr "Um período de tempo"
+
+#: ../includes/Edr/Memberships.php:48
+msgid "Day(s)"
+msgstr "Dia(s)"
+
+#: ../includes/Edr/Memberships.php:49
+msgid "Month(s)"
+msgstr "Meses"
+
+#: ../includes/Edr/Memberships.php:50
+msgid "Year(s)"
+msgstr "Ano(s)"
+
+#: ../includes/Edr/Memberships.php:61
+msgid "Expired"
+msgstr "Expirado"
+
+#: ../includes/Edr/Memberships.php:62
+msgid "Active"
+msgstr "Ativo"
+
+#: ../includes/Edr/Memberships.php:132
+#, php-format
+msgid "per day"
+msgid_plural "per %d days"
+msgstr[0] "Por dia"
+msgstr[1] "por %d dias"
+
+#: ../includes/Edr/Memberships.php:136
+#, php-format
+msgid "per month"
+msgid_plural "per %d months"
+msgstr[0] "por mês"
+msgstr[1] "por %d meses"
+
+#: ../includes/Edr/Memberships.php:140
+#, php-format
+msgid "per year"
+msgid_plural "per %d years"
+msgstr[0] "por ano"
+msgstr[1] "por %d anos"
+
+#: ../includes/Edr/PostTypes.php:32
+#: ../includes/Edr/Admin/Settings/Permalink.php:60
+msgctxt "course slug"
+msgid "courses"
+msgstr ""
+
+#: ../includes/Edr/PostTypes.php:33
+#: ../includes/Edr/Admin/Settings/Permalink.php:46
+msgctxt "courses archive slug"
+msgid "courses"
+msgstr ""
+
+#: ../includes/Edr/PostTypes.php:39
+msgid "Courses"
+msgstr "Cursos"
+
+#: ../includes/Edr/PostTypes.php:72
+msgid "Lesson"
+msgstr "Lições"
+
+#: ../includes/Edr/PostTypes.php:85
+#: ../includes/Edr/Admin/Settings/Permalink.php:88
+msgctxt "lesson slug"
+msgid "lessons"
+msgstr ""
+
+#: ../includes/Edr/PostTypes.php:87
+#: ../includes/Edr/Admin/Settings/Permalink.php:74
+msgctxt "lessons archive slug"
+msgid "lessons"
+msgstr ""
+
+#: ../includes/Edr/PostTypes.php:98 ../includes/Edr/PostTypes.php:100
+msgid "Membership Levels"
+msgstr "Níveis de planos"
+
+#: ../includes/Edr/PostTypes.php:102
+msgid "Add New Membership Level"
+msgstr "Add novo nível de plano"
+
+#: ../includes/Edr/PostTypes.php:103
+msgid "Edit Membership Level"
+msgstr "Editar nível de plano"
+
+#: ../includes/Edr/PostTypes.php:104
+msgid "New Membership Level"
+msgstr "Novo nível de plano"
+
+#: ../includes/Edr/PostTypes.php:105
+msgid "View Membership Level"
+msgstr "Visualizar nível de plano"
+
+#: ../includes/Edr/PostTypes.php:106
+msgid "Search Membership Levels"
+msgstr "Procurar nível de plano"
+
+#: ../includes/Edr/PostTypes.php:107
+msgid "No membership levels found"
+msgstr "Nenhum nível de plano encontrado"
+
+#: ../includes/Edr/PostTypes.php:108
+msgid "No membership levels found in Trash"
+msgstr "Nenhum nível de plano encontrado na lixeira"
+
+#: ../includes/Edr/PostTypes.php:137
+msgid "Course Categories"
+msgstr "Categorias de curso"
+
+#: ../includes/Edr/PostTypes.php:143
+msgctxt "slug"
+msgid "course-category"
+msgstr ""
+
+#: ../includes/Edr/StudentAccount.php:67
+msgid "Create an Account"
+msgstr "Criar uma conta"
+
+#: ../includes/Edr/StudentAccount.php:79
+#: ../includes/Edr/Admin/EntriesTable.php:167
+#: ../includes/Edr/Admin/MembersTable.php:73
+#: ../includes/Edr/Admin/PaymentsTable.php:85
+msgid "Username"
+msgstr "Apelido"
+
+#: ../includes/Edr/StudentAccount.php:90
+#: ../includes/Edr/Admin/Settings/Email.php:246
+msgid "Email"
+msgstr "E-mail"
+
+#: ../includes/Edr/StudentAccount.php:101
+msgid "Billing Details"
+msgstr "Detalhes faturamento"
+
+#: ../includes/Edr/StudentAccount.php:247
+msgid "Please check if you entered your username correctly."
+msgstr "Por favor, verifique se entrou com o apelido corretamente."
+
+#: ../includes/Edr/StudentAccount.php:250
+#: ../includes/Edr/StudentAccount.php:259
+msgid "Please enter your username and email."
+msgstr "Por favor, entre com seu apelido e e-ail."
+
+#: ../includes/Edr/StudentAccount.php:256
+msgid "Please check if you entered your email correctly."
+msgstr "Por favor, verifique se entrou com o e-mail corretamente."
+
+#: ../includes/Edr/StudentAccount.php:266
+msgid "Please enter your first name."
+msgstr "Por favor, entre com o primeiro nome."
+
+#: ../includes/Edr/StudentAccount.php:271
+msgid "Please enter your last name."
+msgstr "Por favor, entre com o último nome."
+
+#: ../includes/Edr/StudentAccount.php:276
+msgid "Please enter your billing address."
+msgstr "Por favor, entre com seu endereço de cobrança."
+
+#: ../includes/Edr/StudentAccount.php:281
+msgid "Please enter your billing city."
+msgstr "Por favor, entre com sua cidade de cobrança."
+
+#: ../includes/Edr/StudentAccount.php:286
+msgid "Please enter your billing state / province."
+msgstr "Por favor, enter com seu país de cobrança."
+
+#: ../includes/Edr/StudentAccount.php:291
+msgid "Please enter your billing postcode / zip."
+msgstr "Por favor, entre com o código postal de cobrança."
+
+#: ../includes/Edr/StudentAccount.php:296
+msgid "Please select your billing country."
+msgstr "Por favor, entre com seu país de cobrança."
+
+#: ../includes/Edr/StudentAccount.php:417
+#, php-format
+msgid "%s with %s"
+msgstr "%s de %s"
+
+#: ../includes/Edr/StudentAccount.php:441 ../templates/shortcode-payment.php:79
+msgid "Subtotal"
+msgstr ""
+
+#: ../includes/Edr/StudentAccount.php:448 ../templates/shortcode-payment.php:89
+msgid "Total"
+msgstr ""
+
+#: ../includes/Edr/TaxManager.php:151
+msgid "Name cannot be empty."
+msgstr "O nome não pode estar vazio."
+
+#: ../includes/Edr/TaxManager.php:156
+msgid "Invalid name."
+msgstr "Nome inválido."
+
+#: ../includes/Edr/TaxManager.php:161
+#: ../includes/Edr/Admin/Settings/Taxes.php:433
+msgid "Description cannot be empty."
+msgstr "Descrição não pode estar vazio."
+
+#: ../includes/Edr/Admin/Actions.php:59
+msgid "Please select a student."
+msgstr "Por favor, selecione um estudante."
+
+#: ../includes/Edr/Admin/Actions.php:68
+msgid "Please select a course."
+msgstr "Por favor, selecione um curso."
+
+#: ../includes/Edr/Admin/EntriesTable.php:95
+#: ../includes/Edr/Admin/EntriesTable.php:165
+#: ../includes/Edr/Admin/PaymentsTable.php:39
+#: ../includes/Edr/Admin/PaymentsTable.php:82
+msgctxt "ID of an item"
+msgid "ID"
+msgstr ""
+
+#: ../includes/Edr/Admin/EntriesTable.php:101
+#: ../includes/Edr/Admin/EntriesTable.php:127
+#: ../includes/Edr/Admin/PaymentsTable.php:45
+#: ../includes/Edr/Admin/PaymentsTable.php:57
+msgid "All"
+msgstr "Todos"
+
+#: ../includes/Edr/Admin/EntriesTable.php:139
+#: ../includes/Edr/Admin/MembersTable.php:59
+#: ../includes/Edr/Admin/PaymentsTable.php:67
+msgid "Search"
+msgstr "Busca"
+
+#: ../includes/Edr/Admin/EntriesTable.php:205
+msgid "quiz pending"
+msgstr "Questionário pendente"
+
+#: ../includes/Edr/Admin/MembersTable.php:55
+msgid "Search Members"
+msgstr "Buscar membros"
+
+#: ../includes/Edr/Admin/Meta.php:21
+msgid "Course Settings"
+msgstr "Configurações de curso"
+
+#: ../includes/Edr/Admin/Meta.php:29
+msgid "Lesson Settings"
+msgstr "Configuração de lição"
+
+#: ../includes/Edr/Admin/Meta.php:37
+msgid "Membership Settings"
+msgstr "Configuração de plano."
+
+#: ../includes/Edr/Admin/PaymentsTable.php:87
+msgid "Method"
+msgstr "Método"
+
+#: ../includes/Edr/Admin/PostTypes.php:73
+msgid "All courses"
+msgstr "Todos os cursos"
+
+#: ../includes/Edr/Admin/Quiz.php:56 ../templates/content-lesson.php:23
+#: ../templates/quiz.php:96
+msgid "Quiz"
+msgstr "Questionário"
+
+#: ../includes/Edr/Admin/Syllabus.php:38
+msgid "Syllabus"
+msgstr "Programa de estudos"
+
+#: ../includes/Edr/Admin/Syllabus.php:54
+#: ../includes/Edr/Admin/Settings/Taxes.php:393
+msgid "Loading"
+msgstr "Carregando"
+
+#: ../includes/Edr/Admin/Syllabus.php:57
+msgid "Add Group"
+msgstr "Adicionar grupo"
+
+#: ../includes/Edr/Admin/Syllabus.php:75
+msgid "Select Lesson"
+msgstr "Selecionar lição"
+
+#: ../includes/Edr/Admin/Syllabus.php:77
+msgid "Add"
+msgstr ""
+
+#: ../includes/Edr/Admin/Settings/Email.php:19
+msgid "Email Settings"
+msgstr "Configurações de e-mail"
+
+#: ../includes/Edr/Admin/Settings/Email.php:27
+msgid "From Name"
+msgstr "De nome"
+
+#: ../includes/Edr/Admin/Settings/Email.php:34
+msgid "The name email notifications are said to come from."
+msgstr "O nome em notificações por e-mail será este."
+
+#: ../includes/Edr/Admin/Settings/Email.php:42
+msgid "From Email"
+msgstr "De E-mail"
+
+#: ../includes/Edr/Admin/Settings/Email.php:49
+msgid "Email to send notifications from."
+msgstr "E-mail para enviar notificação."
+
+#: ../includes/Edr/Admin/Settings/Email.php:57
+msgid "Email Templates"
+msgstr "E-mail template"
+
+#: ../includes/Edr/Admin/Settings/Email.php:65
+msgid "Student registered subject"
+msgstr "Assunto de inscrição de estudante"
+
+#: ../includes/Edr/Admin/Settings/Email.php:72
+#, php-format
+msgid "Subject of the student registered notification email. Placeholders: %s"
+msgstr ""
+"Assunto do e-mail de notificação de registro de estudante: Palavras "
+"reservadas: %s"
+
+#: ../includes/Edr/Admin/Settings/Email.php:79
+msgid "Student registered template"
+msgstr "Template de inscrição de estudante"
+
+#: ../includes/Edr/Admin/Settings/Email.php:86
+#: ../includes/Edr/Admin/Settings/Email.php:114
+#: ../includes/Edr/Admin/Settings/Email.php:141
+#: ../includes/Edr/Admin/Settings/Email.php:168
+#, php-format
+msgid "Placeholders: %s"
+msgstr "Palavras reservadas: %s"
+
+#: ../includes/Edr/Admin/Settings/Email.php:93
+msgid "Quiz grade subject"
+msgstr "Assunto situação do questionário"
+
+#: ../includes/Edr/Admin/Settings/Email.php:100
+msgid "Subject of the quiz grade email."
+msgstr "Assunto do e-mail de situação do questionário."
+
+#: ../includes/Edr/Admin/Settings/Email.php:107
+msgid "Quiz grade template"
+msgstr "Situação de questionário template"
+
+#: ../includes/Edr/Admin/Settings/Email.php:121
+msgid "Membership registration subject"
+msgstr "Assunto inscriçao em plano"
+
+#: ../includes/Edr/Admin/Settings/Email.php:134
+msgid "Membership registration template"
+msgstr "Template inscriçao de plano"
+
+#: ../includes/Edr/Admin/Settings/Email.php:148
+msgid "Membership renew subject"
+msgstr "Assunto renovação de plano"
+
+#: ../includes/Edr/Admin/Settings/Email.php:161
+msgid "Membership renew template"
+msgstr "Renovação de plano template"
+
+#: ../includes/Edr/Admin/Settings/General.php:19
+msgid "Pages"
+msgstr "Páginas"
+
+#: ../includes/Edr/Admin/Settings/General.php:36
+msgid "Student's Courses"
+msgstr "Cursos do estudante"
+
+#: ../includes/Edr/Admin/Settings/General.php:44
+#, php-format
+msgid ""
+"This page outputs the student's pending, in progress and complete courses. "
+"Add the following shortcode to this page: %s"
+msgstr ""
+"Esta página exibirá os cursos pendentes, em progresso e completos do "
+"estudante. Adicione o seguinte shortcode nesta página: %s"
+
+#: ../includes/Edr/Admin/Settings/General.php:60
+#, php-format
+msgid ""
+"This page outputs the payment details of the course. Add the following "
+"shortcode to this page: %s"
+msgstr ""
+"Esta página exibirá os detalhes de pagamento do curso. Adicione o seguinte "
+"shortcode nesta página: %s"
+
+#: ../includes/Edr/Admin/Settings/General.php:68
+#: ../includes/Edr/Admin/Settings/Memberships.php:77
+msgid "Memberships"
+msgstr "Planos"
+
+#: ../includes/Edr/Admin/Settings/General.php:76
+#, php-format
+msgid "This page outputs all memberships. Shortcode: %s"
+msgstr "Esta página exibirá todos os planos. Shortcode: %s"
+
+#: ../includes/Edr/Admin/Settings/General.php:84
+msgid "User's Membership"
+msgstr "Plano dos usuários"
+
+#: ../includes/Edr/Admin/Settings/General.php:92
+#, php-format
+msgid ""
+"This page outputs the membership settings for the current user. Shortcode: %s"
+msgstr ""
+"Esta página exibirá as configurações do plano do usuário corrente. "
+"Shortcode: %s"
+
+#: ../includes/Edr/Admin/Settings/General.php:100
+msgid "User's Payments"
+msgstr "Pagamento de usuários"
+
+#: ../includes/Edr/Admin/Settings/General.php:108
+#, php-format
+msgid "This page outputs the user's payments. Shortcode: %s"
+msgstr "Esta página exibirá os pagamentos do usuário: Shorcode: %s"
+
+#: ../includes/Edr/Admin/Settings/General.php:115
+msgid "Selling"
+msgstr "Venda"
+
+#: ../includes/Edr/Admin/Settings/General.php:123
+msgid "Location"
+msgstr "Localização"
+
+#: ../includes/Edr/Admin/Settings/General.php:130
+msgid "The location where you sell from."
+msgstr "A localização de onde venderá."
+
+#: ../includes/Edr/Admin/Settings/General.php:137
+msgid "Store customers&apos; IPs on purchases"
+msgstr "IP de compra do cliente da loja"
+
+#: ../includes/Edr/Admin/Settings/General.php:151
+msgid "Show course lecturer on the payment page"
+msgstr "Exibe o professor do curso na página de pagamento"
+
+#: ../includes/Edr/Admin/Settings/General.php:187
+msgid "Currency Position"
+msgstr "Posição da moeda"
+
+#: ../includes/Edr/Admin/Settings/General.php:195
+msgid "Before"
+msgstr "Antes"
+
+#: ../includes/Edr/Admin/Settings/General.php:196
+msgid "After"
+msgstr "Depois"
+
+#: ../includes/Edr/Admin/Settings/General.php:204
+msgid "Decimal Point Separator"
+msgstr "Separador de centavos"
+
+#: ../includes/Edr/Admin/Settings/General.php:219
+msgid "Thousands Separator"
+msgstr "Separador de milhares"
+
+#: ../includes/Edr/Admin/Settings/General.php:251
+msgid "Courses Archive"
+msgstr "Arquivos de cursos"
+
+#: ../includes/Edr/Admin/Settings/General.php:327
+msgid "General"
+msgstr "Geral"
+
+#: ../includes/Edr/Admin/Settings/Learning.php:19
+#: ../includes/Edr/Admin/Settings/Learning.php:124
+msgid "Learning"
+msgstr "Aprendizagem"
+
+#: ../includes/Edr/Admin/Settings/Learning.php:27
+msgid "Enable comments on lessons"
+msgstr "Habilitar comentários para lições"
+
+#: ../includes/Edr/Admin/Settings/Learning.php:44
+msgid "Enable quizzes for"
+msgstr "Habilitar questionários para"
+
+#: ../includes/Edr/Admin/Settings/Learning.php:54
+msgid "Select one or more post types."
+msgstr "Selecione um ou mais post types."
+
+#: ../includes/Edr/Admin/Settings/Memberships.php:19
+msgid "Memberships Settings"
+msgstr "Configurações de planos"
+
+#: ../includes/Edr/Admin/Settings/Memberships.php:27
+msgid ""
+"Send an email notification to a user X days before his/her membership expires"
+msgstr ""
+"Envia um e-mail de notificação para um usuário X dias depois do plano dele/"
+"dela expirar"
+
+#: ../includes/Edr/Admin/Settings/Payment.php:19
+msgid "Payment Gateways"
+msgstr "Gatways de pagamentos"
+
+#: ../includes/Edr/Admin/Settings/Permalink.php:18
+msgid "Educator Permalink Settings"
+msgstr "Educator Configurações de links permanentes"
+
+#: ../includes/Edr/Admin/Settings/Permalink.php:25
+msgid "Course category base"
+msgstr "Base categoria de curso"
+
+#: ../includes/Edr/Admin/Settings/Permalink.php:39
+msgid "Courses archive base"
+msgstr "Base de arquivos de cursos"
+
+#: ../includes/Edr/Admin/Settings/Permalink.php:53
+msgid "Course base"
+msgstr "Base curso"
+
+#: ../includes/Edr/Admin/Settings/Permalink.php:67
+msgid "Lessons archive base"
+msgstr "Base arquivos de lições"
+
+#: ../includes/Edr/Admin/Settings/Permalink.php:81
+msgid "Lesson base"
+msgstr "Base lições"
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:21
+#: ../includes/Edr/Admin/Settings/Taxes.php:111
+msgid "Taxes"
+msgstr "Taxas"
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:29
+msgid "Enable Taxes"
+msgstr "Habilitar taxas"
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:44
+msgid "Prices Entered With Tax"
+msgstr "Preços introduzidos com taxas"
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:54
+msgid "Yes"
+msgstr "Sim"
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:55
+msgid "No"
+msgstr "Não"
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:63
+msgid "Tax Classes"
+msgstr "Classe de taxas"
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:300
+msgid "Rates"
+msgstr "Imposto"
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:311
+#: ../includes/Edr/Admin/Settings/Taxes.php:387
+msgid "Options"
+msgstr "Opções"
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:323
+msgid "Add New Tax Rate"
+msgstr "Add nova taxa de imposto"
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:324
+msgid "Edit Tax Rate"
+msgstr "Editar taxa de imposto"
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:326
+msgid "Short Name"
+msgstr "Nome curto"
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:330
+msgid "Description"
+msgstr "Descrição"
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:334
+#: ../includes/Edr/Admin/Settings/Taxes.php:371
+msgid "Save"
+msgstr "Salvar"
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:335
+#: ../templates/shortcode-student-courses.php:66
+#: ../templates/shortcode-user-payments.php:65
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:383
+msgid "State"
+msgstr "Status"
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:385
+msgid "Rate (%)"
+msgstr "Imposto (%)"
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:386
+msgid "Priority"
+msgstr "Prioridade"
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:401
+msgid "Save Order"
+msgstr "Salvar ordem"
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:402
+msgid "Close"
+msgstr "Fechar"
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:431
+msgid "The name is invalid."
+msgstr "O nome é inválido."
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:432
+msgid "Tax class with this name exists."
+msgstr "A classe de taca com este nome existe."
+
+#: ../includes/Edr/Admin/Settings/Taxes.php:434
+msgid "Rates could not be saved."
+msgstr "Impostos não foram salvos."
+
+#: ../includes/Edr/Gateway/BankTransfer.php:9
+msgid "Bank Transfer"
+msgstr "Transferência bancária"
+
+#: ../includes/Edr/Gateway/BankTransfer.php:15
+#: ../includes/Edr/Gateway/Cash.php:15 ../includes/Edr/Gateway/Check.php:15
+msgid "Instructions for a student"
+msgstr "Instruções para um estudante"
+
+#: ../includes/Edr/Gateway/BankTransfer.php:59
+#: ../includes/Edr/Gateway/Cash.php:59
+msgid "You've paid for this course already."
+msgstr "Você já pagou por este curso"
+
+#: ../includes/Edr/Gateway/BankTransfer.php:64
+#: ../includes/Edr/Gateway/Cash.php:64 ../includes/Edr/Gateway/Check.php:59
+msgid "Payment Instructions"
+msgstr "Instruções de pagamento"
+
+#: ../includes/Edr/Gateway/Base.php:82
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: ../includes/Edr/Gateway/Base.php:87
+msgid "Default"
+msgstr "Padrão"
+
+#: ../includes/Edr/Gateway/Cash.php:9
+msgid "Cash"
+msgstr "Dinheiro"
+
+#: ../includes/Edr/Gateway/Check.php:9
+msgid "Check"
+msgstr "Check"
+
+#: ../includes/Edr/Gateway/Paypal.php:15
+msgid "PayPal"
+msgstr ""
+
+#: ../includes/Edr/Gateway/Paypal.php:22
+msgid "Business Email"
+msgstr "E-mail corporativo"
+
+#: ../includes/Edr/Gateway/Paypal.php:28
+msgid "Test"
+msgstr "Teste"
+
+#: ../includes/Edr/Gateway/Paypal.php:29
+msgid ""
+"If checked, Educator will use PayPal sandbox URL and PayPal payments will be "
+"in testing mode."
+msgstr ""
+"Se marcado, Educator usará a URL PayPal sandbox e o pagamento PayPal será em "
+"modo teste."
+
+#: ../includes/Edr/Gateway/Paypal.php:35 ../includes/Edr/Gateway/Stripe.php:25
+msgid "Thank you message"
+msgstr "Obrigado por sua mensagem"
+
+#: ../includes/Edr/Gateway/Paypal.php:134
+#: ../templates/shortcode-payment.php:278
+msgid "Continue"
+msgstr "Continuar"
+
+#: ../includes/Edr/Gateway/Paypal.php:136
+msgid "Redirecting to PayPal..."
+msgstr "Redirecionando para PayPal"
+
+#: ../includes/Edr/Gateway/Stripe.php:9
+msgid "Stripe"
+msgstr "Listra"
+
+#: ../includes/Edr/Gateway/Stripe.php:15
+msgid "Secret key"
+msgstr "Chave secreta"
+
+#: ../includes/Edr/Gateway/Stripe.php:20
+msgid "Publishable key"
+msgstr "Chave pública"
+
+#: ../includes/Edr/Gateway/Stripe.php:101
+msgid "The payment is getting processed..."
+msgstr "O pagamento está sendo processado..."
+
+#: ../includes/Edr/Gateway/Stripe.php:122
+msgid "Redirecting to the payment summary page..."
+msgstr "Redirecionando para página de resumo do pagamento..."
+
+#: ../includes/Edr/Gateway/Stripe.php:211
+#, php-format
+msgid "Payment #%d"
+msgstr "Pagamento #%d"
+
+#: ../templates/content-single-course.php:31
+msgid "Your registration for this course is pending."
+msgstr "Sua inscrição para este curso está pendente."
+
+#: ../templates/content-single-course.php:35
+msgid "Your payment for this course is pending."
+msgstr "Seu pagamento para este curso etá pendente."
+
+#: ../templates/content-single-lesson.php:28
+#, php-format
+msgid "Please register for the %s to view this lesson."
+msgstr "Por favor, registre-se para visualizar a lição %s."
+
+#: ../templates/content-single-lesson.php:29
+msgid "course"
+msgstr "curso"
+
+#: ../templates/content-single-lesson.php:38
+msgid "Previous Lesson"
+msgstr "Lição anterior"
+
+#: ../templates/content-single-lesson.php:39
+msgid "Next Lesson"
+msgstr "Próxima lição"
+
+#: ../templates/quiz.php:12
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to take the quiz."
+msgstr ""
+"Você deverá estar <a href=\"%s\">logado</a> para realizar este questionário."
+
+#: ../templates/quiz.php:49
+msgid "Please answer all questions before submitting the quiz."
+msgstr ""
+"Por favor, responda a todas as questões antes de enviar o questionário."
+
+#: ../templates/quiz.php:53
+msgid "Thank you. The quiz has been accepted."
+msgstr "Obrigado. O questionário foi aceito."
+
+#: ../templates/quiz.php:83
+msgid "Quiz Grade"
+msgstr "Situalção do questionário"
+
+#: ../templates/quiz.php:87
+#, php-format
+msgid "You scored %s for this quiz."
+msgstr "Sua pontuação foi %s neste qustionário."
+
+#: ../templates/quiz.php:89
+msgid "Your grade is pending."
+msgstr "Sua situação está pendente."
+
+#: ../templates/quiz.php:103
+#, php-format
+msgid "Attempt %1$d of %2$d"
+msgstr "Tentativa %1$d de %2$d"
+
+#: ../templates/quiz.php:108
+msgid "Try again"
+msgstr "Tente novamente"
+
+#: ../templates/quiz.php:162
+msgid "Submit"
+msgstr "Enviar"
+
+#: ../templates/shortcode-memberships.php:32
+msgid "No memberships found."
+msgstr "Nenhum plano encontrado"
+
+#: ../templates/shortcode-payment.php:40
+msgid "Payment Summary"
+msgstr "Índice de pagamento"
+
+#: ../templates/shortcode-payment.php:49
+#: ../templates/shortcode-user-payments.php:34
+msgid "Payment Status"
+msgstr "Status do pagamento"
+
+#: ../templates/shortcode-payment.php:101
+#, php-format
+msgid "Go to %s page"
+msgstr "Ir para página %s"
+
+#: ../templates/shortcode-payment.php:143
+msgid "Please select a course to continue."
+msgstr "Por favor, selecione o curso para continuar."
+
+#: ../templates/shortcode-payment.php:153
+msgid "Registration for this course is closed."
+msgstr "Inscrições para este curso estão fechadas."
+
+#: ../templates/shortcode-payment.php:177
+msgid "Already have an account?"
+msgstr "Já tem uma conta?"
+
+#: ../templates/shortcode-payment.php:177
+msgid "Log in"
+msgstr "Login"
+
+#: ../templates/shortcode-payment.php:208
+msgid "Payment Information"
+msgstr "Informações de pagamento"
+
+#: ../templates/shortcode-student-courses.php:11
+#: ../templates/shortcode-user-membership.php:11
+#: ../templates/shortcode-user-payments.php:11
+msgid "Please log in to view this page."
+msgstr "Por favor, logue para visualizar esta página."
+
+#: ../templates/shortcode-student-courses.php:25
+#: ../templates/shortcode-user-payments.php:24
+msgid "Payment has been cancelled."
+msgstr "O pagamento foi cancelado."
+
+#: ../templates/shortcode-student-courses.php:33
+msgid "Pending Payment"
+msgstr "Pagamento pendente"
+
+#: ../templates/shortcode-student-courses.php:35
+msgctxt "Table column heading"
+msgid "Payment"
+msgstr "Pagamento"
+
+#: ../templates/shortcode-student-courses.php:35
+#: ../templates/shortcode-student-courses.php:166
+msgid "Actions"
+msgstr "Ações"
+
+#: ../templates/shortcode-student-courses.php:54
+msgid "View payment instructions"
+msgstr "Visualizar instruções de pagamentos"
+
+#: ../templates/shortcode-student-courses.php:81
+msgid "In Progress"
+msgstr "Em progresso"
+
+#: ../templates/shortcode-student-courses.php:83
+msgid "Date taken"
+msgstr "Datas tomadas"
+
+#: ../templates/shortcode-student-courses.php:180
+#: ../templates/shortcode-user-membership.php:82
+msgid "Resume"
+msgstr "Resumo"
+
+#: ../templates/shortcode-student-courses.php:192
+msgid "You are not registered for any course."
+msgstr "Você não se inscreveu para este curso."
+
+#: ../templates/shortcode-student-courses.php:192
+msgid "Browse courses"
+msgstr "Navegar pelos cursos"
+
+#: ../templates/shortcode-user-membership.php:21
+msgid "Your account is not connected to a membership."
+msgstr "Sua conta não está conecatada a um plano."
+
+#: ../templates/shortcode-user-membership.php:50
+msgid "Extend"
+msgstr "Estender"
+
+#: ../templates/shortcode-user-membership.php:76
+msgid "Pause"
+msgstr ""
+
+#: ../templates/shortcode-user-payments.php:32
+msgid "ID"
+msgstr ""
+
+#: ../templates/shortcode-user-payments.php:59
+msgid "Details"
+msgstr "Detalhes"
+
+#: ../templates/course/categories.php:2
+msgid "Categories:"
+msgstr "Categorias:"
+
+#: ../templates/course/difficulty.php:2
+msgid "Difficulty:"
+msgstr "Dificuldade:"
